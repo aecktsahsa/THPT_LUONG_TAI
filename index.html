@@ -1,0 +1,62 @@
+<!--Ở dưới có Cmt nhé em-->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chào Mừng 50 Năm Thống Nhất Đất Nước</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+    <div id="corner-logo">
+        <img src="./bgbanner_moi1.png" alt="Logo" />
+    </div>
+
+
+    <footer id="copyright-footer">
+        © 2025 Trường THPT Lương Tài.
+    </footer>
+
+
+    <div id="gpmn-body-load">
+        <div class="bl-logo">
+            <div class="tank-wrap">
+                <div class="vn-sun">
+                    <img src="./vn-flag-full.gif" alt="Cờ Việt Nam">
+                </div>
+                <div class="tank-simu">
+                    <div class="wheels">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="fence"></div>
+                    <div class="fence2"></div>
+                </div>
+                <div class="gate"></div>
+                <div class="gate2"></div>
+            </div>
+            <div class="text-h1 text-center">
+                Cùng TRƯỜNG THPT LƯƠNG TÀI Chào Mừng 50 Năm Thống Nhất Đất Nước 30/04/1975 - 30/04/2025
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Target the animated element (e.g., tank-simu)
+        const animatedElement = document.querySelector('.tank-simu');
+
+        // Add event listener for animation end
+        animatedElement.addEventListener('animationend', () => {
+            // Redirect to another page
+            window.location.href = './main/index.html'; // Replace with your desired URL
+        });
+    </script>
+
+</body>
+</html>
